@@ -1,0 +1,133 @@
+.nopadding{
+	padding: 0px !important;
+}
+
+.nomargin{
+	margin: 0px !important;
+}
+
+.green{
+	background-color: #228B22;
+}
+.navbarprimary .navbar-nav > li > a, #collapse-navbarprimary li{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #fff !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.nav-link{
+	padding: 16px 15px 15px 15px;
+}
+.navbarprimary .navbar-nav > li.active > a, #collapse-navbarprimary li.active{
+	background-color: #171717;
+}
+
+.navbarprimary .navbar-nav .icons{
+	float: left;
+	margin-left: 8px;
+	font-size: 14px;
+}
+
+.navbarprimary .icons-top {
+	width: 70px;
+}
+
+.icons,.icons:hover,.icons:visited{
+	color: #fff !important;
+}
+
+section#navbar{
+	height: 50px;
+}
+/* https://wp-themes.com/responsive-businessr/ */
+/* Product-features Section */
+#features {
+	background: #fff;
+	padding: 30px 0;
+	overflow: hidden;
+}
+#features .features-img {
+	text-align: center;
+	padding-top: 20px;
+}
+@media (min-width: 769px) {
+	#features .features-img {
+		padding-top: 120px;
+		margin-top: -200px;
+	}
+}
+#features .features-img img {
+	max-width: 100%;
+}
+#features .box {
+	margin-bottom: 15px;
+	text-align: center;
+}
+#features .icon {
+	margin-bottom: 10px;
+}
+#features .icon i {
+	color: #666666;
+	font-size: 40px;
+	transition: 0.5s;
+}
+#features .icon i:before {
+	background: #1dc8cd;
+	background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#features .title {
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+#features .title a {
+	color: #111;
+}
+#features .description {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+#features .section-description {
+	padding-bottom: 10px;
+}
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+	font-size: 32px;
+	color: #111;
+	text-align: center;
+	font-weight: 400;
+}
+.section-header .section-description {
+	text-align: center;
+	padding-bottom: 40px;
+	color: #777;
+	font-style: italic;
+}
+.section-header .section-divider {
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #1dc8cd;
+	background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+@media only screen and (min-width: 750px) and (max-width: 820px) {
+	#productHeader{
+		margin-left: 33% !important;
+	}
+}
+#contact{
+	background-color: #28a745;
+}
+
+.form_label{
+	color: #fff;
+}
