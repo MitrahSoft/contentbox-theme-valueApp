@@ -17,15 +17,12 @@
     "changelog":"",
     "type":"contentbox-themes",
     "contributors":[
-        
     ],
     "dependencies":{
-        "contentbox-formbuilder": "v0.1"
+        "ContentBox-FormBuilder-Module": "^2.0"
     },
     "devDependencies":{
-        
     },
     "installPaths":{
-        
     }
 }
