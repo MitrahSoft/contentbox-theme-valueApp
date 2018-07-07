@@ -1,0 +1,31 @@
+{
+    "name":"contentbox-theme-valueApp",
+    "version":"v1.0",
+    "slug":"contentbox-theme-valueApp",
+    "location"  : "https://github.com/MitrahSoft/contentbox-theme-valueApp/archive/v1.0.zip",
+    "author":"MitrahSoft",
+    "homepage":"https://github.com/MitrahSoft/contentbox-theme-valueApp",
+    "documentation":"https://github.com/MitrahSoft/contentbox-theme-valueApp",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/MitrahSoft/contentbox-theme-valueApp"
+    },
+    "bugs":"https://github.com/MitrahSoft/contentbox-theme-valueApp/issues",
+    "shortDescription":"Perfect app that makes your everyday life so much easier!",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"contentbox-themes",
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        "contentbox-formbuilder": "v0.1"
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    }
+}

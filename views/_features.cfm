@@ -8,7 +8,7 @@
 			</div>
 			<div class="col-sm-12 col-md-6 pt-4">
 				<div class="header-right-contents">
-					<h4 class="text-gray text-xxlarge">#cb.themeSetting("featuresTitle")#<!--- Features availlabe with Easy perfect free app ---></h4>
+					<h4 class="text-gray text-xxlarge">#cb.themeSetting("featuresTitle", "")#<!--- Features availlabe with Easy perfect free app ---></h4>
 					<ul class="list-unstyled mt-5 feature-listing">
 						#cb.widget("featureListing", {category="features"})#
 						<!--- <li>
