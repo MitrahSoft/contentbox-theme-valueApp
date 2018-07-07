@@ -1,8 +1,8 @@
 
 
-# # **[contentbox-theme-valueApp](https://github.com/MitrahSoft/contentbox-theme-valueApp)**
+# **[contentbox-theme-valueApp](https://github.com/MitrahSoft/contentbox-theme-valueApp)**
 
-![addDetails](screenshots/Homepage.png)
+![addDetails](Screenshots/Homepage.png)
 
 This is a free Content box Theme. You can use this theme for your website or use it as a reference for developing a Content box theme. The theme will show you the basic concept of Content box, how to create pages, Content stores, Categories etc. It's really a good starter template for the beginners.
 
@@ -28,21 +28,21 @@ This  is a free Content box Theme, once this installed you can now have a freedo
 ```
 User can choose any of the widgets mentioned above from the Widget page.
 ```
-![Widget](screenshots/widgets.PNG)
+![Widget](Screenshots/widgets.PNG)
 
 Selecting  any widget will display all details related to the widget in user friendly manner, user can fill them. So, the details will be rendered in user side.
 
 ~~~
 To use Content store widgets,first the user has to provide contents in the Content Store.
 ~~~
-![ContentStore](screenshots/Createcontent.PNG)
+![ContentStore](Screenshots/Createcontent.PNG)
 
-![addDetails](screenshots/AddContent.PNG)
+![addDetails](Screenshots/AddContent.PNG)
 
 ~~~
 Also user can make use of Contentbox form builder, It will get rendered in user side.
 ~~~
-![formBuilder](screenshots/FormBuilder.PNG)
+![formBuilder](Screenshots/FormBuilder.PNG)
 
 ### Git Submodule method
 
