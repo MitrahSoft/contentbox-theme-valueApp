@@ -1,13 +1,13 @@
 /**
-* A widget that shows you slider on a page.
+* A widget that renders a slider on a page.
 */
 component extends="contentbox.models.ui.BaseWidget" singleton{
 
 	function init(){
 		// Widget Properties
-		setName( "Slider for Header" );
+		setName( "A simple slider widget for contentbox" );
 		setVersion( "1.0.0" );
-		setDescription( "A widget to show slider on home page" );
+		setDescription( "A widget to show slider on content pages" );
 		setAuthor( "Mitrahsoft" );
 		setAuthorURL( "http://www.mitrahsoft.com" );
 		setIcon( "info" );

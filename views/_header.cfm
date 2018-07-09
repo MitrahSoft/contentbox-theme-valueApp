@@ -1,12 +1,10 @@
-<!--- http://127.0.0.1:8589/modules_app/contentbox-custom/_themes/valueappTheme/includes/uploads/Home/Header/Slider/header1.png --->
-
 <cfprocessingdirective suppressWhitespace="true">
 <cfoutput>
 <section id="header">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-5">
-				#cb.widget("homeSlider", {category="homeSlider"})#
+				#cb.widget("slider", {category="mainSlider"})#
 			</div>
 			<div class="col-sm-12 col-md-7 pt-4 text-sm-center text-md-left text-center">
 				<div class="header-right-contents pt-5">

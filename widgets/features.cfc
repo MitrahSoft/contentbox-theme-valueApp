@@ -1,13 +1,13 @@
 /**
-* A widget that shows you listing on a page.
+* A widget that renders listing on a page.
 */
 component extends="contentbox.models.ui.BaseWidget" singleton{
 
 	function init(){
 		// Widget Properties
-		setName( "FeaturesItems" );
+		setName( "Listing widget for features" );
 		setVersion( "1.0.0" );
-		setDescription( "A widget to show feature items on home page" );
+		setDescription( "A widget to show feature items on a contentbox page" );
 		setAuthor( "Mitrahsoft" );
 		setAuthorURL( "http://www.mitrahsoft.com" );
 		setIcon( "info" );

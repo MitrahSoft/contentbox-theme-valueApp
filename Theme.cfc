@@ -86,34 +86,34 @@ component{
 		// Layout Settings
 		this.settings = [
 			// Global settings
-			{ name="appLogoImage", group="Details", defaultValue="", type="text", label="Logo image path for the app:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="An image which will be used as the logo" },
-			{ name="appDescription", group="Details", defaultValue="", type="textarea", label="Description about the app:", required="false", fieldDescription="An image which will be used as the logo"  },
+			{ name="appLogoImage", group="Details", defaultValue="", type="text", label="Logo of the app", required="false", groupIntro="Details about entire application", fieldDescription="An image which will be used as the logo" },
+			{ name="appDescription", group="Details", defaultValue="", type="textarea", label="Description", required="false", fieldDescription="An image which will be used as the logo"  },
 
 			// Services
-			{ name="servicesTitle", group="Services", defaultValue="", type="text", label="Enter a title for services section:", required="false", groupIntro="An image which will be used as the logo", fieldDescription="Title for services section in home page"  },
-			{ name="servicesDesc", group="Services", defaultValue="", type="textarea", label="Description of services section:", required="false", fieldDescription="Description of services section:"  },
+			{ name="servicesTitle", group="Services", defaultValue="", type="text", label="Enter the title", required="false", groupIntro="Details about services", fieldDescription="Title for services section in home page"  },
+			{ name="servicesDesc", group="Services", defaultValue="", type="textarea", label="Enter the description", required="false", fieldDescription="Description of services section"  },
 
 			// Plans
-			{ name="plansTitle", group="Plans", defaultValue="", type="text", label="Enter a title for plans section:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Plans Description" },
-			{ name="plans_Types", group="Plans", defaultValue="", type="text", label="Description about the Plan Type", required="false", fieldDescription="Plans Detail" },
+			{ name="plansTitle", group="Plans", defaultValue="", type="text", label="Enter the title", required="false", groupIntro="Details about plans", fieldDescription="Plans Description" },
+			{ name="plansDesc", group="Plans", defaultValue="", type="text", label="Enter the description", required="false", fieldDescription="Plans Detail" },
 
 			// Features
-			{ name="featuresImage", group="features", defaultValue="", type="text", label="features image path for the app:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="An image which will be used as the features" },
-			{ name="featuresTitle", group="features", defaultValue="", type="text", label="Enter a title for productfeatures :", required="false", groupIntro="Title of the productfeatures", fieldDescription="Title for productfeatures section in home page"
+			{ name="featuresImage", group="features", defaultValue="", type="text", label="URL for image in Features page", required="false", groupIntro="Details about features", fieldDescription="An image which will be used in the features page" },
+			{ name="featuresTitle", group="features", defaultValue="", type="text", label="Enter the title", required="false", fieldDescription="Title to be shown on features section of home page"
 			},
 
 			// Portfolio
-			{ name="portfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for portfolio:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="portfolio title" },
-			{ name="productPortfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for productPortfolio :", required="false", groupIntro="Title of the portfolio", fieldDescription="Title for portfolio."
-			},
+			// { name="portfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for portfolio:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="portfolio title" },
+			// { name="productPortfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for productPortfolio :", required="false", groupIntro="Title of the portfolio", fieldDescription="Title for portfolio."
+			// },
 
 			// Team
-			{ name="teamTitle", group="team", defaultValue="", type="text", label="Enter a title for team:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="team title" },
-			{ name="teamDescription", group="team", defaultValue="", type="text", label="Description about the team Type", required="false", fieldDescription="Team Description" },
+			{ name="teamTitle", group="team", defaultValue="", type="text", label="Enter the title", required="false", groupIntro="Details about team", fieldDescription="team title" },
+			{ name="teamDesc", group="team", defaultValue="", type="text", label="Description about the team Type", required="false", fieldDescription="Team Description" },
 
 			// Contact
 			{ name="contactTitle", group="contact", defaultValue="", type="text", label="Enter a title for contact:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Contact Title" },
-			{ name="contactDescription", group="contact", defaultValue="", type="text", label="Description about the contact Type", required="false", fieldDescription="Contact Description" }
+			{ name="contactDesc", group="contact", defaultValue="", type="text", label="Description about the contact Type", required="false", fieldDescription="Contact Description" }
 
 		];
 		return this;
