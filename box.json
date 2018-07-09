@@ -1,9 +1,10 @@
 {
     "name":"contentbox-theme-valueApp",
-    "version":"v1.0",
+    "version":"1.0",
     "slug":"contentbox-theme-valueApp",
     "location"  : "https://github.com/MitrahSoft/contentbox-theme-valueApp/archive/v1.0.zip",
     "author":"MitrahSoft",
+    "directory":"../../../../modules_app/contentbox_custom/_themes/contentbox-theme-valueApp/",
     "homepage":"https://github.com/MitrahSoft/contentbox-theme-valueApp",
     "documentation":"https://github.com/MitrahSoft/contentbox-theme-valueApp",
     "repository":{
@@ -24,5 +25,7 @@
     "devDependencies":{
     },
     "installPaths":{
+        "ContentBox-FormBuilder-Module": "../../../../modules/contentbox/modules_user/contentbox-formbuilder/",
+        "contentbox-theme-valueApp":"../../../../modules_app/contentbox_custom/_themes/contentbox-theme-valueApp/"
     }
 }
