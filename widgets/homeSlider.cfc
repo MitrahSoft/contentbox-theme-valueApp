@@ -50,7 +50,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 				if( x == 1 ){ imageString &= ' active'; }
 				imageString &= '
 					">
-						<img class="d-block w-100" src="#cb.themeRoot()&tempPath#" alt="First slide">
+						<img class="d-block w-100" src="#tempPath#" alt="First slide">
 					</div>
 				';
 			}

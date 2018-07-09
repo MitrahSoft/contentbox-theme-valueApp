@@ -54,7 +54,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 				thehtml &= '
 							<div class="testimonial">
 								<div class="pic">
-									<img src="#cb.themeRoot()&tempImgPath#" class="img-rounded">
+									<img src="#tempImgPath#" class="img-rounded">
 								</div>
 								<div class="testimonial-profile">
 									<h3 class="title">#tempTitle#</h3>

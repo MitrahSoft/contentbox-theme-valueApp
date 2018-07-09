@@ -1,8 +1,10 @@
 <cfprocessingdirective suppressWhitespace="true">
 <cfoutput>
+<cfif fileExists(expandPath("#cb.themeRoot()#/views/#cb.getCurrentPage().getSlug()#.cfm"))>
+	<cfset event.setview("#cb.themeRoot()#/views/#cb.getCurrentPage().getSlug()#")>
+</cfif>
 <!DOCTYPE html>
 <html lang="en">
-	<!--- <cfdump var="#cb.widget('formBuilder', {slug='contact'})#" /><cfabort /> --->
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,13 +23,22 @@
 		<meta property="og:image" content="imgs/ogimage.png">
 
 		#cb.quickView("_pageIncludes")#
+		<cfif cb.getCurrentPage().getSlug() eq "portfolio">
+			<link href="#cb.themeRoot()#/includes/css/portfolio_freelancer.css" rel="stylesheet">
+			<link href="#cb.themeRoot()#/includes/css/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<cfelseif cb.getCurrentPage().getSlug() eq "plans">
+			<link href = "#cb.themeRoot()#/includes/css/plans.css" rel="stylesheet">
+		<cfelseif cb.getCurrentPage().getSlug() eq "teams">
+			<link href="#cb.themeRoot()#/includes/css/team.css" rel="stylesheet">
+		</cfif>
 	</head>
 
 	<body>
+
 		#cb.quickView("_navbar")#
 
 		#cb.mainView( args=args )#
-
+		
 		<!-- Footer section -->
 		#cb.quickView("_footer")#
 		<!-- Footer section -->

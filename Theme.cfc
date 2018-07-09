@@ -90,29 +90,29 @@ component{
 			{ name="appDescription", group="Details", defaultValue="", type="textarea", label="Description about the app:", required="false", fieldDescription="An image which will be used as the logo"  },
 
 			// Services
-			{ name="servicesTitle", group="Services", defaultValue="", type="text", label="Enter a tile for services section:", required="false", groupIntro="An image which will be used as the logo", fieldDescription="Title for services section in home page"  },
+			{ name="servicesTitle", group="Services", defaultValue="", type="text", label="Enter a title for services section:", required="false", groupIntro="An image which will be used as the logo", fieldDescription="Title for services section in home page"  },
 			{ name="servicesDesc", group="Services", defaultValue="", type="textarea", label="Description of services section:", required="false", fieldDescription="Description of services section:"  },
 
 			// Plans
-			{ name="plansTitle", group="Plans", defaultValue="", type="text", label="Enter a tile for plans section:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Plans Description" },
+			{ name="plansTitle", group="Plans", defaultValue="", type="text", label="Enter a title for plans section:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Plans Description" },
 			{ name="plans_Types", group="Plans", defaultValue="", type="text", label="Description about the Plan Type", required="false", fieldDescription="Plans Detail" },
 
 			// Features
 			{ name="featuresImage", group="features", defaultValue="", type="text", label="features image path for the app:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="An image which will be used as the features" },
-			{ name="productFeaturesTitle", group="features", defaultValue="", type="text", label="Enter a title for productfeatures :", required="false", groupIntro="Title of the productfeatures", fieldDescription="Title for productfeatures section in home page"
+			{ name="featuresTitle", group="features", defaultValue="", type="text", label="Enter a title for productfeatures :", required="false", groupIntro="Title of the productfeatures", fieldDescription="Title for productfeatures section in home page"
 			},
 
 			// Portfolio
-			{ name="portfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a tile for portfolio:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="portfolio title" },
+			{ name="portfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for portfolio:", 	required="false", groupIntro="These are the global details for the theme.", fieldDescription="portfolio title" },
 			{ name="productPortfolioTitle", group="portfolio", defaultValue="", type="text", label="Enter a title for productPortfolio :", required="false", groupIntro="Title of the portfolio", fieldDescription="Title for portfolio."
 			},
 
 			// Team
-			{ name="teamTitle", group="team", defaultValue="", type="text", label="Enter a tile for team:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="team title" },
+			{ name="teamTitle", group="team", defaultValue="", type="text", label="Enter a title for team:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="team title" },
 			{ name="teamDescription", group="team", defaultValue="", type="text", label="Description about the team Type", required="false", fieldDescription="Team Description" },
 
 			// Contact
-			{ name="contactTitle", group="contact", defaultValue="", type="text", label="Enter a tile for contact:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Contact Title" },
+			{ name="contactTitle", group="contact", defaultValue="", type="text", label="Enter a title for contact:", required="false", groupIntro="These are the global details for the theme.", fieldDescription="Contact Title" },
 			{ name="contactDescription", group="contact", defaultValue="", type="text", label="Description about the contact Type", required="false", fieldDescription="Contact Description" }
 
 		];
@@ -165,7 +165,7 @@ component{
 	* After saving theme generate required settings
 	*/
 	function cbadmin_postThemeSettingsSave( event, interceptData, buffer ){
-		generatePageContentStackFields();
+		// generatePageContentStackFields();
 	}
 
 	/**

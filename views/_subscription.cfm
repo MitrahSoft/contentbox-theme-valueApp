@@ -13,7 +13,7 @@
 		  <div class="col-lg-3"></div>
 		  <div class="col-lg-6">
 			<div class="input-group input-group-lg">
-			  <input type="email" class="form-control" placeholder="mitrahsoft@gmail.com" aria-label="Search for...">
+			  <input type="email" class="form-control" placeholder="myemail@mail.com" aria-label="Search for...">
 			  <span class="input-group-btn">
 				<button class="btn btn-success btn-lg" type="button">Subscribe</button>
 			  </span>
