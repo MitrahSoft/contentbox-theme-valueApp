@@ -57,7 +57,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 									</div>
 								';
 					imageHTML = '<div class="portrait">
-									<img src="#cb.themeRoot()&tempImgPath#" alt="" />
+									<img src="#tempImgPath#" alt="" />
 									<div class="overlay"></div>
 								</div>';
 

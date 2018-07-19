@@ -28,7 +28,7 @@
 			<link href="#cb.themeRoot()#/includes/css/magnific-popup/magnific-popup.css" rel="stylesheet">
 		<cfelseif cb.getCurrentPage().getSlug() eq "plans">
 			<link href = "#cb.themeRoot()#/includes/css/plans.css" rel="stylesheet">
-		<cfelseif cb.getCurrentPage().getSlug() eq "teams">
+		<cfelseif cb.getCurrentPage().getSlug() eq "team">
 			<link href="#cb.themeRoot()#/includes/css/team.css" rel="stylesheet">
 		</cfif>
 	</head>

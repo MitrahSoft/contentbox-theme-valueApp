@@ -50,7 +50,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 									<i class="fa fa-search-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="#cb.themeRoot()&tempImgPath#" alt="">
+							<img class="img-fluid" src="#tempImgPath#" alt="">
 						</a>
 					</div>
 					<div class="portfolio-modal mfp-hide" id="portfolio-modal-#x#">
@@ -63,7 +63,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 									<div class="col-lg-8 mx-auto">
 										<h2 class="text-secondary text-uppercase mb-0">#tempTitle#</h2>
 										<hr class="star-dark mb-5">
-										<img class="img-fluid mb-5" src="#cb.themeRoot()&tempImgPath#" alt="">
+										<img class="img-fluid mb-5" src="#tempImgPath#" alt="">
 										<p>#tempDesc#</p>
 										<a class="btn btn-success btn-lg rounded-pill portfolio-modal-dismiss" href="##">
 											<i class="fa fa-close"></i>
